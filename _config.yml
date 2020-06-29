@@ -1,0 +1,26 @@
+title: Darul Uloom of Seattle
+email: info@darululooomseattle.org
+description: Darul Uloom description2
+author:
+org:
+  contact:
+    email: info@darululooomseattle.org
+    phone: +1-425-351-5668
+    address: street, Bellevue WA 98007
+
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-coffeescript
+
+exclude:
+  - LICENSE
+  - README.md
+  - fresh.gif
+  
+# Social Profiles
+twitter_username:
+github_username:
+facebook_username:
