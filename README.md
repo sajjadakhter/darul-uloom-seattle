@@ -5,6 +5,9 @@
 ## Preview
 [![Creative](https://github.com/thypirate/startbootstrap-creative-jekyll/blob/master/creative.gif)](https://thypirate.github.io/startbootstrap-creative-jekyll/)
 
+## run locally
+```docker run --rm  --volume="$PWD:/srv/jekyll"  -it jekyll/builder:$JEKYLL_VERSION   jekyll  build --watch```
+
 ## Download and Installing
 You can either:
 * Clone the repo using the following command ```git clone https://github.com/thypirate/startbootstrap-creative-jekyll.git```.
