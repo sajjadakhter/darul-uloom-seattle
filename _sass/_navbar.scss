@@ -31,18 +31,18 @@
     box-shadow: none;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: fade-out($white, 0);
       &:hover {
-        color: $white;
+        color: fade-out($white, .3);
       }
     }
     .navbar-nav {
       .nav-item {
         .nav-link {
-          color: fade-out($white, .3);
+          color: fade-out($white, 0);
           padding: 0 1rem;
           &:hover {
-            color: $white;
+            color: fade-out($white, .3);
           }
         }
         &:last-child {
