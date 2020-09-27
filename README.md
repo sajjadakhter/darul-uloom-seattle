@@ -9,5 +9,5 @@
 ```docker run --rm  --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/builder:latest   jekyll  serve --watch```
 
 ## open generated site 
-http://localhost:3000/
+http://localhost:4000/
 
