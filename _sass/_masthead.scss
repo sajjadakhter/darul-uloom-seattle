@@ -24,6 +24,20 @@ header.masthead {
       font-size: 3rem;
     }
   }
+
+  @media (max-height: 1000px) {
+    height: 120vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 1.15rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
   @include media-breakpoint-up(xl) {
     h1 {
       font-size: 3.5rem;
